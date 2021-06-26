@@ -15,6 +15,7 @@ jobs:
           npm install
       - name: Run tests
         run: |
+          cd ReactNative
           npm test
           
 #build-android:
