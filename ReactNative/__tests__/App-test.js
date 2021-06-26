@@ -19,6 +19,7 @@ it('tests jest', () => {
   expect(true).toEqual(true);
 });
 
+/*
 it('Schedule renders correctly', () => {
   const tree = renderer.create(
     <Schedule />
@@ -39,6 +40,7 @@ it('Header renders correctly', () => {
     ).toJSON();
   expect(tree).toMatchSnapshot();
 });
+*/
 
 it('MyLargeButton renders correctly', () => {
   const tree = renderer.create(
